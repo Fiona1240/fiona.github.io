@@ -220,12 +220,12 @@ disqus:
 # client_secret:
 
 # gitalk:
-#   enable: false
-#   client_id:
-#   client_secret:
-#   repo:
-#   owner:
-#   admin:
+#   enable: true
+#   client_id: 
+#   client_secret:  
+#   repo: https://github.com/Fiona1240/fiona.github.io
+#   owner: Fiona1240
+#   admin: Fiona1240
 
 # valine comment system. https://valine.js.org
 # valine:
