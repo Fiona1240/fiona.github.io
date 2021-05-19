@@ -182,10 +182,13 @@ slide:
   autoPlayMedia: false
   backgroundTransition: 'fade'
 
-# QR_code:
-# - itemlist:
-#     img:
-#     text:
+QR_code:
+  - itemlist:
+      img: /fiona.github.io/img/alipay.png
+      text: 支付宝打赏
+  - itemlist:
+      img: /fiona.github.io/img/wechat.png
+      text: 微信打赏
 
 # adv:
 # enable: false
