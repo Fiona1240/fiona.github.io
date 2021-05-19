@@ -204,7 +204,7 @@ addThis:
 # Comments System
 # ---------------
 disqus:
-  enable: true
+  enable: false
   shortname: fiona
   count: true
 
@@ -219,13 +219,13 @@ disqus:
 # client_id:
 # client_secret:
 
-# gitalk:
-#   enable: true
-#   client_id: 
-#   client_secret:  
-#   repo: https://github.com/Fiona1240/fiona.github.io
-#   owner: Fiona1240
-#   admin: Fiona1240
+gitalk:
+  enable: true
+  client_id: 3d635afcb7d7e053bd2c
+  client_secret: 852f8d5d0c2a3828e5ba1435fe36c372268e8e00 
+  repo: https://github.com/Fiona1240/fiona.github.io
+  owner: Fiona1240
+  admin: Fiona1240
 
 # valine comment system. https://valine.js.org
 # valine:
