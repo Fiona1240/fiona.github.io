@@ -8,8 +8,9 @@
     noSupport: 'The browser does not support'
   },
   hexoVersion: '5.4.0'
-} </script><meta name="generator" content="Hexo 5.4.0"></head><body><canvas class="fireworks"></canvas><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar" data-display="true"><div class="toggle-sidebar-info text-center"><span data-toggle="Toggle article">Toggle site</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85nvm"><span class="toc-number">1.</span> <span class="toc-text">安装nvm</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85Node-js"><span class="toc-number">2.</span> <span class="toc-text">安装Node.js</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85Git"><span class="toc-number">3.</span> <span class="toc-text">安装Git</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B3%A8%E5%86%8CGithub%E8%B4%A6%E5%8F%B7"><span class="toc-number">4.</span> <span class="toc-text">注册Github账号</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85Hexo%EF%BC%8C%E5%88%9D%E5%A7%8B%E5%8C%96blog"><span class="toc-number">5.</span> <span class="toc-text">安装Hexo，初始化blog</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%85%8D%E7%BD%AEhexo%E6%A8%A1%E6%9D%BF"><span class="toc-number">6.</span> <span class="toc-text">配置hexo模板</span></a></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="/fiona.github.io/img/my-avatar.jpg"></div><div class="author-info__name text-center">Fiona</div><div class="author-info__description text-center"></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/fiona.github.io/archives"><span class="pull-left">Articles</span><span class="pull-right">1</span></a><a class="author-info-articles__tags article-meta" href="/fiona.github.io/tags"><span class="pull-left">Tags</span><span class="pull-right">1</span></a></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(/fiona.github.io/img/bg.png)"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/fiona.github.io/">Fiona's Blog</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus">   <a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a></span><span class="pull-right"></span></div><div id="post-info"><div id="post-title">Hexo+Github搭建博客</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2021-05-17</time><span class="post-meta__separator">|</span><i class="fa fa-comment-o post-meta__icon" aria-hidden="true"></i><a href="/fiona.github.io/blogs/Hexo-Github/#disqus_thread"><span class="disqus-comment-count" data-disqus-identifier="blogs/Hexo-Github/"></span></a></div></div></div><div class="layout" id="content-inner"><article id="post"><div class="article-container" id="post-content"><p>突然间想创建个自己的博客，在网上搜索了一些信息，大部分都是使用Hexo + Github创建，之前并没有接触过，于是开始尝试搭建博客，下面是我整个搭建博客的过程及遇到的一些问题。</p>
+} </script><meta name="generator" content="Hexo 5.4.0"></head><body><canvas class="fireworks"></canvas><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar" data-display="true"><div class="toggle-sidebar-info text-center"><span data-toggle="Toggle article">Toggle site</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85nvm"><span class="toc-number">1.</span> <span class="toc-text">安装nvm</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85Node-js"><span class="toc-number">2.</span> <span class="toc-text">安装Node.js</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85Git"><span class="toc-number">3.</span> <span class="toc-text">安装Git</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B3%A8%E5%86%8CGithub%E8%B4%A6%E5%8F%B7"><span class="toc-number">4.</span> <span class="toc-text">注册Github账号</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85Hexo%EF%BC%8C%E5%88%9D%E5%A7%8B%E5%8C%96blog"><span class="toc-number">5.</span> <span class="toc-text">安装Hexo，初始化blog</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%85%8D%E7%BD%AEhexo%E6%A8%A1%E6%9D%BF"><span class="toc-number">6.</span> <span class="toc-text">配置hexo模板</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%9E%E6%8E%A5GitHub%E4%B8%8E%E6%9C%AC%E5%9C%B0"><span class="toc-number">7.</span> <span class="toc-text">连接GitHub与本地</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%86%99%E6%96%87%E7%AB%A0%EF%BC%8C%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0"><span class="toc-number">8.</span> <span class="toc-text">写文章，发布文章</span></a></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="/fiona.github.io/img/my-avatar.jpg"></div><div class="author-info__name text-center">Fiona</div><div class="author-info__description text-center"></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/fiona.github.io/archives"><span class="pull-left">Articles</span><span class="pull-right">1</span></a><a class="author-info-articles__tags article-meta" href="/fiona.github.io/tags"><span class="pull-left">Tags</span><span class="pull-right">1</span></a></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(/fiona.github.io/img/bg.png)"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/fiona.github.io/">Fiona's Blog</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus">   <a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/about">About</a></span><span class="pull-right"></span></div><div id="post-info"><div id="post-title">Hexo+Github搭建博客</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2021-05-17</time><span class="post-meta__separator">|</span><i class="fa fa-comment-o post-meta__icon" aria-hidden="true"></i><a href="/fiona.github.io/blogs/Hexo-Github/#disqus_thread"><span class="disqus-comment-count" data-disqus-identifier="blogs/Hexo-Github/"></span></a></div></div></div><div class="layout" id="content-inner"><article id="post"><div class="article-container" id="post-content"><p>突然间想创建个自己的博客，在网上搜索了一些信息，大部分都是使用Hexo + Github创建，之前并没有接触过，于是开始尝试搭建博客，下面是我整个搭建博客的过程及遇到的一些问题。</p>
 <span id="more"></span>
+<p>以下参考了知乎文章<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/35668237">超详细Hexo+Github博客搭建小白教程</a></p>
 <h2 id="安装nvm"><a href="#安装nvm" class="headerlink" title="安装nvm"></a>安装nvm</h2><p>nvm顾名思义是node版本管理工具，为了本地能支持多版本node运行，本文选择使用nvm安装node。</p>
 <ol>
 <li>下载地址<blockquote>
@@ -68,7 +69,7 @@
 <li>输入自己的项目名字<yourname>.github.io（注：必须以.github.io结尾）,记得把Add a README file选项选上<br><img src="github1.jpg"></li>
 </ul>
 </li>
-<li>创建成功后，点击Settings -&gt; Pages -&gt; Choose a theme（注：若想使用hexo主题可略过此步）<br><img src="github2.jpg"></li>
+<li>创建成功后，点击Settings &gt; Pages &gt; Choose a theme（注：若想使用hexo主题可略过此步）<br><img src="github2.jpg"></li>
 </ol>
 <h2 id="安装Hexo，初始化blog"><a href="#安装Hexo，初始化blog" class="headerlink" title="安装Hexo，初始化blog"></a>安装Hexo，初始化blog</h2><ol>
 <li>在任意地方新建文件夹存放自己的blog文件，例如D:\fiona\GitHub\blog</li>
@@ -76,23 +77,85 @@
 <li>验证是否安装成功<br> <strong>hexo -v</strong><br> <img src="hexo1.jpg"></li>
 <li>初始化网站及安装网站必备组件，浏览blog（默认博客样式如下图所示，若使用自定义hexo模板，可跳过该步骤）<ul>
 <li>git控制台输入hexo init初始化网站<br>  <strong>hexo init</strong><br>  <strong>npm i</strong><br>  <img src="hexo2.jpg"></li>
-<li>输入hexo g生成静态网页，hexo s打开本地服务器<br>  <strong>hexo g</strong><br>  <strong>hexo s</strong><br>  <img src="hexo3.jpg"><br>  <img src="hexo4.jpg"></li>
+<li>输入hexo g生成静态网页，hexo s打开本地服务器（之后接下来所有对hexo网站修改后均需运行这两个命令）<br>  <strong>hexo g</strong><br>  <strong>hexo s</strong><br>  <img src="hexo3.jpg"><br>  <img src="hexo4.jpg"></li>
 <li>通过浏览器打开localhost:4000查看blog<br>  <img src="hexo5.jpg"> </li>
 </ul>
 </li>
 </ol>
 <h2 id="配置hexo模板"><a href="#配置hexo模板" class="headerlink" title="配置hexo模板"></a>配置hexo模板</h2><p>现在网络上有很多优秀的hexo模板可以使用，可自行搜索自己喜欢的模板对博客进行应用，这里我使用的是<a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/hexo-theme-melody">hexo-theme-melody</a>。</p>
 <ol>
-<li>在blog文件目录下右键点击Git Bash Here，clone hexo-theme-melogy<blockquote>
+<li><p>在blog文件目录下右键点击Git Bash Here，clone hexo-theme-melogy</p>
+<blockquote>
 <p>git clone -b master <a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/hexo-theme-melody">https://github.com/Molunerfinn/hexo-theme-melody</a> themes/melody</p>
 </blockquote>
 </li>
-<li>install相关plugin<blockquote>
+<li><p>install相关plugin</p>
+<blockquote>
 <p>npm install hexo-renderer-pug hexo-renderer-stylus</p>
 </blockquote>
 </li>
+<li><p>在blog文件目录下的_config.xml中找到theme节点，修改为melody。</p>
+<blockquote>
+<p>theme: melody</p>
+</blockquote>
+<p> 此时运行hexo g及hexo s后，浏览器通过localhost:4000查看blog可看出样式已经改变了。<br> <img src="hexo6.jpg"></p>
+</li>
 </ol>
-</div></article><div class="post-meta__tag-list"><a class="post-meta__tags" href="/fiona.github.io/tags/hexo-github/">hexo+github</a></div><nav id="pagination"></nav><div id="disqus_thread"></div><script>var unused = null;
+<h2 id="连接GitHub与本地"><a href="#连接GitHub与本地" class="headerlink" title="连接GitHub与本地"></a>连接GitHub与本地</h2><p>虽然blog的样式已经变为我们所希望的那样，但实际上hexo网站与我们之前所建立的GitHub此时是相互独立的。为了使本地hexo网站能被push到GitHub上，需要连接GitHub与本地。</p>
+<ol>
+<li><p>设置用户名及邮箱，blog文件目录下右键打开git bash，输入以下命令（注：用户名和邮箱根据你注册GitHub的信息自行修改）</p>
+<blockquote>
+<p>git config –global user.name “fiona”<br>git config –global user.email “<a href="mailto:&#102;&#x69;&#x6f;&#110;&#x61;&#49;&#x32;&#x34;&#x30;&#x40;&#104;&#111;&#x74;&#109;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;">&#102;&#x69;&#x6f;&#110;&#x61;&#49;&#x32;&#x34;&#x30;&#x40;&#104;&#111;&#x74;&#109;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;</a>“</p>
+</blockquote>
+</li>
+<li><p>生成密钥SSH Key，这里需要手动输入放key的文件，直接把括号中的地址copy下就行了（注：这里我已经生成过了，所以问我是否覆盖）。</p>
+<blockquote>
+<p>ssh-keygen -t rsa -C “<a href="mailto:&#102;&#105;&#x6f;&#x6e;&#97;&#49;&#50;&#52;&#48;&#64;&#x68;&#111;&#116;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#102;&#105;&#x6f;&#x6e;&#97;&#49;&#50;&#52;&#48;&#64;&#x68;&#111;&#116;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a>“</p>
+</blockquote>
+<p> <img src="ssh.jpg"></p>
+</li>
+<li><p>获取密钥（注：如果生成密钥的时候输入的目录为其他自定义目录，则需要改为自定义目录文件）</p>
+<blockquote>
+<p>cat ~/.ssh/id_rsa.pub</p>
+</blockquote>
+<p> <img src="ssh1.jpg"></p>
+</li>
+<li><p>在GitHub中新建SSH，打开GitHub &gt; 头像下Settings &gt; SSH and GPG keys &gt; new SSH key。<br><img src="ssh2.jpg"></p>
+</li>
+<li><p>Title任意输入，Key输入第三步中获取到的密钥<br><img src="ssh3.jpg"></p>
+</li>
+<li><p>验证是否配置成功，输入以下命令，若出现用户名则代表成功。</p>
+<blockquote>
+<p>ssh -T <a href="mailto:&#103;&#105;&#x74;&#x40;&#103;&#x69;&#116;&#x68;&#x75;&#98;&#x2e;&#99;&#111;&#x6d;">&#103;&#105;&#x74;&#x40;&#103;&#x69;&#116;&#x68;&#x75;&#98;&#x2e;&#99;&#111;&#x6d;</a></p>
+</blockquote>
+<p> <img src="ssh4.jpg"></p>
+</li>
+<li><p>Hexo blog中配置GitHub相关信息</p>
+<ul>
+<li>GitHub网站中通过Settings &gt; Pages中找到你的GitHub网址<br>  <img src="site.jpg"></li>
+<li>Hexo blog文件目录下的_config.yml中找到url节点，修改为GitHub网址<br>  <img src="site1.jpg"></li>
+<li>Hexo blog文件目录下的_config.yml中找到deploy节点，修改为如图（注：branch为你GitHub中默认的branch）<br>  <img src="site2.jpg"></li>
+</ul>
+</li>
+<li><p>需要注意的点</p>
+<ul>
+<li>新生成密钥后，git clone或push可能会遇到“The authenticity of host ‘github.com (192.30.255.112)’ can’t be established.”的问题，此时直接输入yes回车就可以正常使用了。</li>
+<li>若在GitHub中无法找到网址，需在Settings &gt; Pages中source下选择branch。<br><img src="site3.jpg"></li>
+</ul>
+</li>
+</ol>
+<h2 id="写文章，发布文章"><a href="#写文章，发布文章" class="headerlink" title="写文章，发布文章"></a>写文章，发布文章</h2><ol>
+<li>Hexo blog目录下右键打开Git Bash Here，安装hexo扩展用于deploy本地文章到GitHub上。<blockquote>
+<p>npm i hexo-deployer-git</p>
+</blockquote>
+</li>
+<li>Hexo blog文件目录下的_config.yml中找到post_asset_folder节点，修改为true（注：若不修改则运行new post时无法生成同名文件夹）。<br><img src="post.jpg"></li>
+<li>Git Bash Here命令行中输入hexo new post “article title”，新建文章。</li>
+<li>打开blog目录下\source_posts的目录中，可发现多了一个以article title命名的文件夹及.md文件，文件夹用于存放图片等数据，.md文件即为文章文件支持markdown语法。<br><img src="post1.jpg"></li>
+<li>根据markdown语法编写完文件后，根目录下运行hexo g生成静态网页，hexo s本地浏览效果，也可直接输入hexo d部署到GitHub上。这时打开github.io主页就能看到发布的文章了。</li>
+</ol>
+<p>以上就是我配置博客的整个过程啦，接下来基本就是对于melody主题的配置了，<a target="_blank" rel="noopener" href="https://molunerfinn.com/hexo-theme-melody-doc/#configuration-file-introduction">文档</a>写的很全，按照文档来进行基本都可以配置出一个很好看的模板了，也欢迎大家留言一起讨论怎么设置。撒花完结。</p>
+</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">Fiona</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="https://fiona1240.github.io/fiona.github.io/blogs/Hexo-Github/">https://fiona1240.github.io/fiona.github.io/blogs/Hexo-Github/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="post-meta__tag-list"><a class="post-meta__tags" href="/fiona.github.io/tags/hexo-github/">hexo+github</a></div><nav id="pagination"></nav><div id="disqus_thread"></div><script>var unused = null;
 var disqus_config = function () {
   this.page.url = 'https://fiona1240.github.io/fiona.github.io/blogs/Hexo-Github/';
   this.page.identifier = 'blogs/Hexo-Github/';
@@ -101,7 +164,7 @@ var disqus_config = function () {
 var d = document, s = d.createElement('script');
 s.src = "https://" + 'fiona' +".disqus.com/embed.js";
 s.setAttribute('data-timestamp', '' + +new Date());
-(d.head || d.body).appendChild(s);</script><script id="dsq-count-scr" src="https://fiona.disqus.com/count.js" async></script></div></div><footer class="footer-bg" style="background-image: url(/fiona.github.io/img/bg.png)"><div class="layout" id="footer"><div class="copyright">&copy;2013 - 2021 By Fiona</div><div class="framework-info"><span>Driven - </span><a target="_blank" rel="noopener" href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>Theme - </span><a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-file"></i><span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js"></script><script src="/fiona.github.io/js/utils.js?version=1.9.0"></script><script src="/fiona.github.io/js/fancybox.js?version=1.9.0"></script><script src="/fiona.github.io/js/sidebar.js?version=1.9.0"></script><script src="/fiona.github.io/js/copy.js?version=1.9.0"></script><script src="/fiona.github.io/js/fireworks.js?version=1.9.0"></script><script src="/fiona.github.io/js/transition.js?version=1.9.0"></script><script src="/fiona.github.io/js/scroll.js?version=1.9.0"></script><script src="/fiona.github.io/js/head.js?version=1.9.0"></script><script>if(/Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent)) {
+(d.head || d.body).appendChild(s);</script><script id="dsq-count-scr" src="https://fiona.disqus.com/count.js" async></script></div></div><footer class="footer-bg" style="background-image: url(/fiona.github.io/img/bg.png)"><div class="layout" id="footer"><div class="copyright">&copy;2019 - 2021 By Fiona</div><div class="framework-info"><span>Driven - </span><a target="_blank" rel="noopener" href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>Theme - </span><a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-file"></i><span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js"></script><script src="/fiona.github.io/js/utils.js?version=1.9.0"></script><script src="/fiona.github.io/js/fancybox.js?version=1.9.0"></script><script src="/fiona.github.io/js/sidebar.js?version=1.9.0"></script><script src="/fiona.github.io/js/copy.js?version=1.9.0"></script><script src="/fiona.github.io/js/fireworks.js?version=1.9.0"></script><script src="/fiona.github.io/js/transition.js?version=1.9.0"></script><script src="/fiona.github.io/js/scroll.js?version=1.9.0"></script><script src="/fiona.github.io/js/head.js?version=1.9.0"></script><script>if(/Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent)) {
   $('#nav').addClass('is-mobile')
   $('footer').addClass('is-mobile')
   $('#top-container').addClass('is-mobile')
